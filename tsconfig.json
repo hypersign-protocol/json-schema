@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "typeRoots": [],
+    "paths": {
+      "@cfworker/*": ["./src"]
+    },
+    "composite": true,
+    "target": "es6",
+    "module": "CommonJS",
+    "lib": ["es2017", "WebWorker", "Webworker.Iterable"],
+ 
+    "outDir": "dist",
+  },
+}
